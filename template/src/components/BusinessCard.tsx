@@ -20,7 +20,7 @@ export function BusinessCard() {
 
         <div className="like-container">
                 <FontAwesomeIcon icon={faHeart} className="heart-icon"  />
-                &nbsp;<span>{undefined}</span>
+                &nbsp;<span>{0}</span>
             </div>
 
         <div className='about'>
