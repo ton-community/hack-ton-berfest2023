@@ -40,17 +40,14 @@ export function BusinessCard() {
       </div>
 
       <div className='footer'>
-        <a href="https://www.linkedin.com/" aria-label="YouTube" className="youtube">
+        <a href="https://www.youtube.com/@nvalet" aria-label="YouTube" className="youtube">
           <FontAwesomeIcon icon={faYoutube} />
         </a>
-        <a href="https://github.com/eanisei" aria-label="GitHub" className="github">
+        <a href="https://github.com/niko1aew" aria-label="GitHub" className="github">
           <FontAwesomeIcon icon={faGithub} />
         </a>
-        <a href="https://t.me/cyber_ea" aria-label="Telegram" className="telegram">
+        <a href="https://t.me/niko1aew" aria-label="Telegram" className="telegram">
           <FontAwesomeIcon icon={faTelegram} />
-        </a>
-        <a href="https://twitter.com/eanisei" aria-label="Twitter" className="twitter">
-          <FontAwesomeIcon icon={faTwitter} />
         </a>
       </div>
     </div>
