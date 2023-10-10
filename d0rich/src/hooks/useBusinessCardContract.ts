@@ -30,11 +30,23 @@ export function useBusinessCardContract() {
     setLikes(Number(likes))
   }
 
+  async function getUserInfo() {
+    if (!businessCardContract) return
+    const userInfo = await businessCardContract.getInfo()
+    setUserInfo({
+      name: userInfo.name,
+      profession: userInfo.profesion,
+      bio: userInfo.bio
+    })
+  }
+
   useEffect(() => {
     getLikes().catch(console.error)
+    getUserInfo().catch(console.error)
   }, [businessCardContract])
 
   return {
-    likes
+    likes,
+    userInfo
   }
 }

@@ -9,7 +9,7 @@ import { useBusinessCardContract } from '../hooks/useBusinessCardContract';
 import './BusinessCard.css';
 
 export function BusinessCard() {
-  const {likes} = useBusinessCardContract()
+  const {likes, userInfo} = useBusinessCardContract()
 
   return (
     <div className='container'>
@@ -27,15 +27,15 @@ export function BusinessCard() {
 
         <div className='about'>
           <h3>Name</h3>
-          <input value={"loading..."}/>
+          <input value={userInfo?.name ?? "loading..."}/>
         </div>
         <div className='interest'>
           <h3>Profession</h3>
-          <input value={"loading..."}/>
+          <input value={userInfo?.profession ?? "loading..."}/>
         </div>
           <div className='interest'>
               <h3>Bio</h3>
-              <input value={"loading..."}/>
+              <input value={userInfo?.bio ?? "loading..."}/>
           </div>
           <button>Update</button>
       </div>
