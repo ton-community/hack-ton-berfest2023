@@ -4,10 +4,12 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 import { faYoutube, faGithub, faTelegram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import avatar from "../assets/avatar.png"
+import { useBusinessCardContract } from '../hooks/useBusinessCardContract';
 
 import './BusinessCard.css';
 
 export function BusinessCard() {
+  const {likes} = useBusinessCardContract()
 
   return (
     <div className='container'>
@@ -20,7 +22,7 @@ export function BusinessCard() {
 
         <div className="like-container">
                 <FontAwesomeIcon icon={faHeart} className="heart-icon"  />
-                &nbsp;<span>{undefined}</span>
+                &nbsp;<span>{likes}</span>
             </div>
 
         <div className='about'>
