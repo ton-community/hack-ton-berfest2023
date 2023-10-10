@@ -9,7 +9,7 @@ import { useBusinessCardContract } from '../hooks/useBusinessCardContract';
 import './BusinessCard.css';
 
 export function BusinessCard() {
-  const {likes, userInfo} = useBusinessCardContract()
+  const {likes, userInfo, sendLike} = useBusinessCardContract()
 
   return (
     <div className='container'>
@@ -21,7 +21,7 @@ export function BusinessCard() {
       <div className='sub-container'>
 
         <div className="like-container">
-                <FontAwesomeIcon icon={faHeart} className="heart-icon"  />
+                <FontAwesomeIcon icon={faHeart} className="heart-icon" onClick={sendLike}  />
                 &nbsp;<span>{likes}</span>
             </div>
 

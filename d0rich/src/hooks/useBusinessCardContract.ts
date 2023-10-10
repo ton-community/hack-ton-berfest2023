@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { useTonClient } from "./useTonClient";
 import { useAsyncInitialize } from "./useAsyncInitialize";
-import { BusinessCard } from "../wrappers/tact_BusinessCard";
-import { Address } from "ton-core";
+import { BusinessCard, Like } from "../wrappers/tact_BusinessCard";
+import { Address, toNano } from "ton-core";
+import { useTonConnect } from "./useTonConnect";
 
 interface UserInfo {
   name: string
@@ -14,6 +15,7 @@ const contractAddress = Address.parse('EQCM3b63cele_wx64hUJecFvmYA-xHbU4O0lyj3AJ
 
 export function useBusinessCardContract() {
   const { client } = useTonClient();
+  const { wallet, sender } = useTonConnect();
   const [likes, setLikes] = useState<number | null>();
   const [userInfo, setUserInfo] = useState<UserInfo | null>();
 
@@ -22,7 +24,7 @@ export function useBusinessCardContract() {
     const contract = BusinessCard.fromAddress(contractAddress)
 
     return await client.open(contract)
-  }, [client])
+  }, [client, wallet])
 
   async function getLikes() {
     if (!businessCardContract) return
@@ -40,6 +42,16 @@ export function useBusinessCardContract() {
     })
   }
 
+  async function sendLike() {
+    if (!businessCardContract) return
+    await businessCardContract.send(
+      sender,
+      { value: toNano('0.1') },
+      { $$type: 'Like' }
+    )
+    await getLikes()
+  }
+
   useEffect(() => {
     getLikes().catch(console.error)
     getUserInfo().catch(console.error)
@@ -47,6 +59,7 @@ export function useBusinessCardContract() {
 
   return {
     likes,
-    userInfo
+    userInfo,
+    sendLike
   }
 }
