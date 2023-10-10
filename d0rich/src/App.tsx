@@ -36,7 +36,7 @@ function App() {
         <FlexBoxCol>
           <FlexBoxRow>        
             <img src={logo} height={48} />
-            {/*<TonConnectButton/>*/}
+            <TonConnectButton/>
             <Button>
               N/A
             </Button>
