@@ -15,12 +15,12 @@ export function BusinessCard() {
       <div className='img-container'>
         <img className='main-img' src={avatar} alt="me" />
       </div>
-      
+
       <div className='sub-container'>
 
         <div className="like-container">
                 <FontAwesomeIcon icon={faHeart} className="heart-icon"  />
-                &nbsp;<span>{0}</span>
+                &nbsp;<span>{undefined}</span>
             </div>
 
         <div className='about'>

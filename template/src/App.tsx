@@ -32,7 +32,7 @@ function App() {
 
   return (
     <StyledApp>
-      <AppContainer>
+      <AppContainer className={"container"}>
         <FlexBoxCol>
           <FlexBoxRow>        
             <img src={logo} height={48} />
