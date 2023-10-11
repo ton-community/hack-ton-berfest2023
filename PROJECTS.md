@@ -8,7 +8,7 @@ In this document, you'll find all the amazing teams participating in Hacktoberfe
 
 **Description:** 🌐 TON Drive is an innovative Telegram Web App designed to bypass the 2GB file size limit of Telegram by leveraging TON Storage. This allows users to securely upload, store, and transfer larger files with ease.
 
-**GitHub Link:** 🔗 [TON Drive Repository](https://github.com/ton-drive/project-documentation/tree/main)
+**GitHub Link:** 🔗 [TON Drive Repository](https://github.com/alefmanvladimir/TON-Drive)
 
 ---
 
@@ -154,6 +154,81 @@ Some ideas for HACK-TON-BERFEST 2023 from easy to hard:
  - [SHEDEX](https://github.com/SHEDEVERstudio/SHEDEX)
  - [SHEDGEMS](https://github.com/SHEDEVERstudio/SHEDGEMS)
  - [ChessZombies](https://github.com/SHEDEVERstudio/ChessZombies)
+
+---
+
+### 🧮 TON-MathLib
+
+**Description:** This repo includes the most important mathematical functions in FunC and Tact for training purposes. However, some mathematical functions on The Open Network might be useful in real infrastructure contracts such as Oracles and Reputation Systems. 
+
+**GitHub Link:** [repository](https://github.com/alirezatabatabaeian/TON-MathLib/tree/main) 
+
+---
+
+### 📘 TON Tutorials
+
+**Description:** Step by step onboarding tutorials for TON blockchain
+
+**GitHub Link:** [repository](https://github.com/ton-community/tutorials)
+
+---
+
+### 📘 Ton Docs
+
+**Description:** User-friendly documentation for newcomers to TON blockchain.
+
+**GitHub Link:** [repository](https://github.com/ton-community/ton-docs)
+
+---
+
+### 📘 Awesome TON
+
+**Description:** A curated list of remarkable libraries, tools, services, protocols, and smart contracts related to TON.
+
+**GitHub Link:** [repository](https://github.com/ton-community/awesome-ton)
+
+---
+
+### 💎 Dart/Flutter library for TON blockchain
+
+**Description:** Comprehensive Dart SDK for interacting with TON Blockchain. When combined with Flutter can be used for any popular platform out there!
+
+**GitHub Link:** [repository](https://github.com/novusnota/tonutils-dart)
+
+---
+
+### 💰 Crowdfunding
+
+**Description:** This project is a decentralized crowdfunding application built on the TON blockchain using smart contracts. It allows users to create crowdfunding campaigns, view campaign details, contribute to campaigns, and manage the lifecycle of the campaign based on the contribution goals and deadlines.
+
+**GitHub Link:** [repository](https://github.com/jokly/crowdfunding)
+
+---
+
+### 🛠️ Ton Sdk for Flutter
+
+**Description:** Ton Sdk for Flutter. This project uses org.ton:ton-kotlin:0.2.15 for native android calls and https://github.com/toncenter/tonweb-mnemonic for web support and does not support linux and windows yet.
+
+**GitHub Link:** [repository](https://github.com/mhbdev/ton)
+
+---
+
+### 🛠️ Ton Sdk for PHP
+
+**Description:** PHP SDK library for The Open Network blockchain
+
+**GitHub Link:** [repository](https://github.com/olifanton/ton/tree/main)
+
+---
+  
+### 🧲 Telegram Decentralized Subscription
+
+**Description:** The "Decentralized Subscription Protocol" project, implemented on the TON blockchain using smart contracts, offers a decentralized solution for subscription services, ensuring anonymity, security, and ease of use, surpassing the limitations of traditional payment systems.
+  
+**GitHub Links:** 
+
+- ####[contracts_repository](https://github.com/TDSub/contracts)
+- ####[frontend_repository](https://github.com/TDSub/frontend)
 
 ---
 
