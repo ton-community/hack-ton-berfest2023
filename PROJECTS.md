@@ -227,8 +227,58 @@ Some ideas for HACK-TON-BERFEST 2023 from easy to hard:
   
 **GitHub Links:** 
 
-- ####[contracts_repository](https://github.com/TDSub/contracts)
-- ####[frontend_repository](https://github.com/TDSub/frontend)
+- #### [contracts_repository](https://github.com/TDSub/contracts)
+- #### [frontend_repository](https://github.com/TDSub/frontend)
+
+---
+
+### 🛠️ Tonutils GO
+
+**Description:** Golang library for interacting with TON blockchain.
+
+This library is native golang implementation of ADNL and lite protocol. It works as connection pool and can be connected to multiple lite servers in the same time, balancing is done on lib side.
+
+**GitHub Link:** [repository](https://github.com/xssnick/tonutils-go)
+
+---
+
+### 🧑‍💻 Freelance Exchange
+
+**Description:** Next-gen Freelance Center in Telegram & on TON. Deals between freelancers & customers secured by smart-contracts. History of deals in blockchain. Work with people all over the world. Pay in crypto.
+
+**GitHub Link:** [repository](https://github.com/the-real-some-dao/freelance-exchange-tdb)
+
+---
+
+### 🗺️ Ton Validators Map
+
+**Description:** Building a map of TON validators
+
+**GitHub Link:** [repository](https://github.com/ton-developers/ton-validators-map)
+
+---
+
+### 🏫 TON dev study
+
+**Description:** Hello everybody! We are first online-school, offering different fields of knowledge nessesary for development on TON within our course:
+
+TON & Cryptography basics, TL-B schemes
+FIFT, FunC & TACT programming
+Building interactions with TON using Python & GO
+
+**GitHub Link:** [repository](https://github.com/TON-DEV-STUDY/ton-dev-study)
+
+---
+
+### 🚀 The open launch
+
+**Description:** A community-run NFT-based launchpad for TON projects is a platform managed by the community to initiate projects on TON using NFT tokens.
+
+**GitHub Links:**
+
+- #### [contracts_repository](https://github.com/theopenlaunch/SmartContracts)
+- #### [frontend_repository](https://github.com/theopenlaunch/FE)
+- #### [backend_repository](https://github.com/theopenlaunch/BE)
 
 ---
 
