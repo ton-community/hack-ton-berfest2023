@@ -4,7 +4,6 @@ import { useAsyncInitialize } from './useAsyncInitialize';
 import { BusinessCard, Like } from '../wrappers/tact_BusinessCard';
 import { Address, OpenedContract, toNano } from 'ton-core';
 import { useTonConnect } from './useTonConnect';
-import {sleep} from '@tanstack/react-query/build/lib/__tests__/utils';
 
 type UserInfo = {
     name: string,

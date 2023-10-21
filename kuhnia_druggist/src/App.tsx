@@ -42,7 +42,7 @@ function App() {
       <AppContainer className={"container"}>
         <FlexBoxCol>
           <FlexBoxRow>
-            <img src={logo} height={48} />
+            <img src={logo} height={48} alt={'logo'}/>
             <TonConnectButton/>
             <Button>
               {checkNetwork()}
