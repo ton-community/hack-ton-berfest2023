@@ -282,4 +282,56 @@ Building interactions with TON using Python & GO
 
 ---
 
+### 🐍 TonTools
+
+**Description:** TonTools is a high-level OOP library for Python, which can be used to interact with TON Blockchain.
+
+**GitHub Link:** [repository](https://github.com/yungwine/TonTools)
+
+If you have any questions join Python - [TON developers chat](https://t.me/pythonnton)
+
+---
+
+### 🐍 Pytoniq
+
+**Description:** Pytoniq is a Python SDK for the TON Blockchain. This library extends pytoniq-core with native LiteClient and ADNL.
+
+**GitHub Link:** [repository](https://github.com/yungwine/pytoniq)
+
+If you have any questions join Python - [TON developers chat](https://t.me/pythonnton)
+
+---
+
+### 🚀 Telegram-Mini-Apps-Dev
+
+**Description:** This template provides a minimal setup to get TWA working in Vite with React, TypeScript, HMR and some ESLint rules.
+
+**GitHub Link:** [repository](https://github.com/Telegram-Mini-Apps-Dev/vite-boilerplate)
+
+---
+
+### 🛠️ PHP mnemonic generation library
+
+**Description:** PHP mnemonic generation library for TON blockchain
+
+**GitHub Link:** [repository](https://github.com/olifanton/mnemonic)
+
+---
+
+### 🛠️ PHP tonlibjson transport
+
+**Description:** Asynchronous implementation of tonlibjson transport via PHP FFI.
+
+**GitHub Link:** [repository](https://github.com/olifanton/tonlibjson-transport)
+
+---
+
+### 🛠️ Olifanton Interop library
+
+**Description:** Interop library for the Olifanton project with basic primitives
+
+**GitHub Link:** [repository](https://github.com/olifanton/interop)
+
+---
+
 _Note: As more teams join the project, they can be added in a similar format below._
