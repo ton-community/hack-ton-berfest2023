@@ -334,4 +334,20 @@ If you have any questions join Python - [TON developers chat](https://t.me/pytho
 
 ---
 
+### 🛠️ Olifanton Interop library
+
+**Description:** Interop library for the Olifanton project with basic primitives
+
+**GitHub Link:** [repository](https://github.com/olifanton/interop)
+
+--- 
+
+### 🎲 METGO
+
+**Description:** Project on the TON blockchain to create METGO tokens, tokens and NFT collections in the game
+
+**GitHub Link:** [repository](https://github.com/Metorum/smart-contracts)
+
+---
+
 _Note: As more teams join the project, they can be added in a similar format below._
