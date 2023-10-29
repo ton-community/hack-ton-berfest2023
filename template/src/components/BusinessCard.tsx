@@ -6,8 +6,11 @@ import { faYoutube, faGithub, faTelegram, faTwitter } from '@fortawesome/free-br
 import avatar from "../assets/avatar.png"
 
 import './BusinessCard.css';
+import { useBusinessCardContract } from '../hooks/useBusinessCardContract';
 
 export function BusinessCard() {
+
+  const {likes,userinfo,sendLikes} = useBusinessCardContract()
 
   return (
     <div className='container'>
@@ -19,21 +22,22 @@ export function BusinessCard() {
       <div className='sub-container'>
 
         <div className="like-container">
-                <FontAwesomeIcon icon={faHeart} className="heart-icon"  />
+                <FontAwesomeIcon icon={faHeart} className="heart-icon"
+                onClick={sendLikes}  />
                 &nbsp;<span>{undefined}</span>
             </div>
 
         <div className='about'>
           <h3>Name</h3>
-          <input value={"loading..."}/>
+          <input value={userinfo ? userinfo.name :"loading..."}/>
         </div>
         <div className='interest'>
           <h3>Profession</h3>
-          <input value={"loading..."}/>
+          <input value={userinfo ? userinfo.profession :"loading..."}/>
         </div>
           <div className='interest'>
               <h3>Bio</h3>
-              <input value={"loading..."}/>
+              <input value={userinfo ? userinfo.bio :"loading..."}/>
           </div>
           <button>Update</button>
       </div>
