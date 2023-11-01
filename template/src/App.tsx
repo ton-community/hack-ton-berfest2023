@@ -28,23 +28,27 @@ const Logo = styled.div`
   height: 48px;
 `;
 function App() {
-  // const {network} = useTonConnect()
+  const {network} = useTonConnect()
 
   return (
-    <StyledApp>
-      <AppContainer className={"container"}>
-        <FlexBoxCol>
-          <FlexBoxRow>        
-            <img src={logo} height={48} />
-            {/*<TonConnectButton/>*/}
-            <Button>
-              N/A
-            </Button>
-          </FlexBoxRow>
-          <BusinessCard />
-        </FlexBoxCol>
-      </AppContainer>
-    </StyledApp>
+      <StyledApp>
+        <AppContainer className={"container"}>
+          <FlexBoxCol>
+            <FlexBoxRow>
+              <img src={logo} height={48} />
+              <TonConnectButton/>
+              <Button>
+                {network
+                    ? network === CHAIN.MAINNET
+                        ? "mainnet"
+                        : "testnet"
+                    : "N/A"}
+              </Button>
+            </FlexBoxRow>
+            <BusinessCard />
+          </FlexBoxCol>
+        </AppContainer>
+      </StyledApp>
   );
 }
 
